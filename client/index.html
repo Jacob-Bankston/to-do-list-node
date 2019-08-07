@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>To Do List</title>
-</head>
-<body>
-    <div id="titleBar">
-        <span>To Do List</span>
+  </head>
+  <body>
+    <div id="title-bar">
+      <span>To Do List</span>
     </div>
-    <div id="user_input">
-        <input type="text" id="taskName" placeholder="Enter Task Name">
-        <input type="text" id="priorityLevel" placeholder="Enter Priority Level">
-        <button id="saveButton">Add Task!</button>
+    <div id="user-input">
+      <input type="text" id="task-name" placeholder="Enter Task Name" />
+      <input type="text" id="priority" placeholder="Enter Priority Level - High or Low" />
+      <button id="save-button">Add Task!</button>
     </div>
-    <div id="taskListDiv">
-        <span>Tasks</span>
+    <div id="task-header">
+      <span>Tasks</span>
     </div>
+    <div id="task-list-div"></div>
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>
